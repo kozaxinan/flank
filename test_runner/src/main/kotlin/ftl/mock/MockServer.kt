@@ -98,12 +98,8 @@ object MockServer {
                 skippedDetail.incompatibleAppVersion = true
                 outcome.skippedDetail = skippedDetail
             }
-            "-4" -> {
-                outcome.summary = flaky
-            }
-            "-666" -> {
-                outcome.summary = null
-            }
+            "-4" -> outcome.summary = flaky
+            "-666" -> outcome.summary = null
             else -> outcome.summary = success
         }
 
