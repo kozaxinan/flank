@@ -16,6 +16,7 @@
 - [#915](https://github.com/Flank/flank/pull/915) Update virtual devices sharding limit. ([adamfilipow92](https://github.com/adamfilipow92))
 - [#920](https://github.com/Flank/flank/pull/920) Improve .yml validation on `doctor` command. ([piotradamczyk5](https://github.com/piotradamczyk5))
 - [#934](https://github.com/Flank/flank/pull/934) Delete incorrect flank snapshot labels. ([piotradamczyk5](https://github.com/piotradamczyk5))
+- [#917](https://github.com/Flank/flank/pull/917) Fix an incorrect outcome. ([pawelpasterz](https://github.com/pawelpasterz))
 -
 -
 
